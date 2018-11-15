@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<div class="main-container">
+		<div>
+			<h1>Crystal Collector</h1>
+			<img src="assets/images/diamonds.jpg" height="160" width="280">
+		</div>
+		<div>
+			<h3>How to play:</h3>
+			</br>
+			<ol>
+				<li>You will be given a random number at the start of the game.</li>
+				<li>To start the game, click on one of the four crystals.</li>
+				<li>Each crystal has a different point value attached to it, and when you click it, it will add that amount of
+					points to your total score.</li>
+				<li>You win the game by matching your total score to the random number.</li>
+				<li>You lose the game if your total score goes above the random number.</li>
+				<li>Each time the game starts over, the crystals will have new values.</li>
+			</ol>
+		</div>
+
+		<div>
+			<div id="purple" class="button"><img src="assets/images/purple_crystal_1.jpg" alt="Purple" height="90" width="90"></div>
+			<div id="blue" class="button"><img src="assets/images/blue_crystal_2.jpeg" alt="Blue" height="90" width="90"></div>
+			<div id="yellow" class="button"><img src="assets/images/yellow_crystal_3.jpg" alt="Yellow" height="90" width="90"></div>
+			<div id="red" class="button"><img src="assets/images/red_crystals_4.jpg" alt="Red" height="90" width="90"></div>
+		</div>
+
+
+		<div id=random-button>
+			<h2>Random Number: <span id="randomNumber">randomNumber</span></h2>
+		</div>
+		<div>
+			<h2>Wins:
+				<span id="wins"></span>
+				</br>
+				Losses:
+				<span id="losses"></span>
+			</h2>
+		</div>
+
+		<div>
+			<h2>Your total score is:<span id="total-score">totalScore</span>
+			</h2>
+		</div>
+
+		<div>
+			<h1>Outcome of the game:
+				<span id="display"></span>
+			</h1>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

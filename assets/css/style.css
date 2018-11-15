@@ -1,0 +1,30 @@
+body{
+    background-image: url("../images/diamonds.jpeg");
+    color: white;
+	background-color: black;
+}
+div{
+	background-color: black;
+	margin: 20px;
+    width: 100%;
+    color: white;
+}
+
+h1, h3, span{
+	font-weight: bold;
+    text-align: left;
+    color: white;
+
+}
+h1{
+    font-size: 35px;
+}
+img{
+    text-align: center;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ol{
+    list-style-type: disc;
+}
