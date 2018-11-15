@@ -1,8 +1,22 @@
 # Crystals Collector Game
 
+## Christie Byrne
 
-## Created by Christie Byrne
-### UC Berkeley Extension Coding Bootcamp
+
+![Diamonds](assets/images/diamonds.jpg "Diamonds")
+
+## <strong>Built with</Strong>
+
+CSS, HTML, Javascript/Jquery
+<space>
+<br>
+
+
+## <strong>Link</Strong>
+https://github.com/byrnec/unit-4-game
+
+
+## <strong>Purpose of the project</Strong>
 -This is a guessing game using numbers where the player will guess with numbers.
 
 -There will be four crystals displayed as buttons on the page.
