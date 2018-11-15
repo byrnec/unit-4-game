@@ -61,14 +61,14 @@ $(document).ready(function () {
 
     //adds the wins to the totalScore
     function winner() {
-        $("#display").text("You win!");
+        $("#display").text("  You win!");
         wins++;
         $('#wins').text(wins);
         reset();
     }
     //adds the losses to the totalScore
     function loser() {
-        $("#display").text("You lose!");
+        $("#display").text("  You lose!");
         losses++;
         $('#losses').text(losses);
         reset()
@@ -80,8 +80,7 @@ $(document).ready(function () {
         console.log(`jQuery button handler this`, $(this))
         var clickedGemValue = $(this).data("value");
         totalScore += clickedGemValue;
-        $('#total-score').text(totalScore);
-        console.log("Total Score= " + totalScore);
+        $('#total-score').text("  " + totalScore);
 
         //sets win and loss conditions
         if (randomNumber === totalScore) {
