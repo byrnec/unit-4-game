@@ -56,7 +56,7 @@ $(document).ready(function () {
         $('#button').text(randomNumber);
         hiddenValue = Math.floor(Math.random() * 11 + 1);
         totalScore = 0;
-        $('#total-score').text(totalScore);
+        // $('#total-score').text(totalScore);
     }
 
     //adds the wins to the totalScore
@@ -74,10 +74,10 @@ $(document).ready(function () {
         reset()
     }
 
-    //sets up click for crystals
+    // sets up click for crystals
     $('.button').on('click', function () {
-        console.log(`regular  button handler this`, this)
-        console.log(`jQuery button handler this`, $(this))
+    //     console.log(`regular  button handler this`, this)
+    //     console.log(`jQuery button handler this`, $(this))
         var clickedGemValue = $(this).data("value");
         totalScore += clickedGemValue;
         $('#total-score').text("  " + totalScore);
